@@ -38,3 +38,4 @@ jobs:
           ACCOUNTS_JSON: ${{ secrets.ACCOUNTS_JSON }}
         run: |
           python login_script.py
+          echo "$ACCOUNTS_JSON"
